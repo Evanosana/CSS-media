@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+img{
+    width: 100%;
+}
+p{
+    padding:0 20px
+}
+@media (min-width: 600px){
+    .container{
+        display: flex;
+    }
+    .section-one{
+        border: 1px solid green;
+        width: 40%;
+    }
+    .section-two-three{
+        border: 1px solid green;
+        width:60%;
+    }
+}
